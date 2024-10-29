@@ -15,7 +15,7 @@ void performAutomatedTasks() {
     std::cout << "Current BIOS UUID: " << uuid << "\n";
 
     // Step 3: Modify specific BIOS settings (example values)
-    std::string newSerialNumber = "TEMP_SERIAL_NUMBER";
+    /*std::string newSerialNumber = "TEMP_SERIAL_NUMBER";
     std::string newUUID = "TEMP-UUID-1234-5678-90AB-CDEF";
     
     // Attempt to set new values
@@ -32,8 +32,9 @@ void performAutomatedTasks() {
     }
 
     // Step 4: Close logging
-    closeLogging();
+    closeLogging();  */
 }
+
 
 int main() {
     performAutomatedTasks();
